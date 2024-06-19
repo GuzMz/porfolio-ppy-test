@@ -1,11 +1,13 @@
 h1 {
     color: lightskyblue;
-    ;
+    margin-top: 25px;
     position: center; 
 }
 
 h2 {
     color: #7a6beb;
+    margin-bottom:20px;
+    
 }
 
 body {
@@ -13,7 +15,10 @@ body {
     background-color: black;
     color: white;
     margin: 0;
-    padding-top: 80px
+    padding-top: 80px;
+    scroll-behavior: smooth;
+    margin-left: 30px;
+    margin-right: 40px;
 }
 
 a{
@@ -31,6 +36,12 @@ nav {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-section{
-    padding: 7px
-}
+section {
+    padding: 20px;
+    border: 3px solid #7a6beb;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 40px;
+  }
+  
+  
