@@ -1,13 +1,19 @@
 h1 {
     color: lightskyblue;
-    margin-top: 25px;
-    position: center; 
+    margin-top: 50px;
+    text-align: center; 
+    margin-left:0;
 }
 
 h2 {
     color: #7a6beb;
     margin-bottom:20px;
     
+}
+
+#profesion{
+    text-align: center;
+    color: #6179e4;
 }
 
 body {
@@ -17,12 +23,12 @@ body {
     margin: 0;
     padding-top: 80px;
     scroll-behavior: smooth;
-    margin-left: 30px;
-    margin-right: 40px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 a{
-    color: white
+    color: darkturquoise;
 }
 
 nav {
@@ -30,10 +36,23 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    text-align: center;
     width: 100%;
     background-color:  #5844f0;
     /*background-color: rgba(245, 30, 148, 0.404);*/
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: inline-block;
 }
 
 section {
@@ -41,7 +60,10 @@ section {
     border: 3px solid #7a6beb;
     margin-bottom: 20px;
     margin-left: 25px;
-    margin-right: 40px;
+    margin-right: 25px;
   }
   
-  
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
