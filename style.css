@@ -1,13 +1,13 @@
 h1 {
     color: lightskyblue;
-    margin-top: 50px;
+    margin-top: 0;
     text-align: center; 
     margin-left:0;
 }
 
 h2 {
     color: #7a6beb;
-    margin-bottom:20px;
+    margin-bottom:15px;
     
 }
 
@@ -21,7 +21,7 @@ body {
     background-color: black;
     color: white;
     margin: 0;
-    padding-top: 80px;
+    padding-top: 50px;
     scroll-behavior: smooth;
     margin-left: 0;
     margin-right: 0;
@@ -51,8 +51,17 @@ nav {
 nav a{
     text-decoration: none;
     color: white;
-    padding: 10px;
+    /*padding: 10px; */
+    /* se repite en menu-item*/
     display: inline-block;
+}
+.menu-item{
+    text-decoration:none;
+    padding: 11px;
+}
+
+.menu-item:hover{
+    background-color: #2e2194;
 }
 
 section {
@@ -66,4 +75,61 @@ section {
 main {
     max-width: 1000px;
     margin: 0 auto;
+    margin-top: 0 px;
 }
+
+#acerca p{
+    text-align: justify;
+}
+
+#habilidad ul {
+    list-style: none;
+    padding: 2px;
+}
+
+#habilidad ul li {
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid #7a6beb;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#exp ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left:5px;
+}
+
+#exp li {
+    margin-bottom: 10px;
+}
+
+#proyects ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left:0px;
+}
+
+#proyects ul li {
+    margin-bottom: 10px;
+}
+
+#proyects ul li a {
+    text-decoration: none;
+    margin-left:10px;
+}
+
+#proyects ul p {
+    text-decoration: none;
+    margin-left:0;
+}
+
+#proyects ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
